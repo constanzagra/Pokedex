@@ -1,0 +1,119 @@
+body{ 
+    margin: 0px;
+    margin-top: 0px;
+    font-family: 'Press Start 2P', cursive;
+    .selected-poke{
+        background-image: url('../sass/pokebackgrou.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        height: 541px;
+        margin-top: -15px;
+        position: relative;
+        
+        .poke-box{
+            margin-left: 150px;
+            margin-top: 75px;
+            .pokebody{
+                position: absolute;
+                border-radius: 5%;
+                border: 5px solid #000f00;
+                height: 385px;
+                width: 340px;
+            }
+            .poke-box-box{
+                position: absolute;
+                width: 180px;
+                height: 180px;
+                background-color: #000f00;
+                border: 1px solid #fafafa;
+                border-radius: 10%;
+                margin-top: 110px;
+                margin-left: 80px;
+            }
+            .pokeImg{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                font-size: 50px;
+            }
+        }
+        .poke-box-atributes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 345px;
+            background-color: #c40000;
+            border: 5px solid #000f00;
+            height: 340px;
+            margin-top: 115px;
+            border-radius: 6px;
+            width: 300px;
+            box-shadow: 0px 0px 9px 0px #e60000;
+            .poke-atributes{
+                margin-top: 70px;
+                width: 250px;
+                height: 100px;
+                background-color: #000f00;
+                border-radius: 5%;
+                
+                .pokeName{
+                    color: #fafafa;
+                    font-weight: 400;
+                    font-size: 13px;
+                    margin-left: 19px;
+                }
+            }
+            .inputs-container{
+                background-color: #6699ff;
+                width: 240px;
+                height: 120px;
+                border-radius: 6%;
+                margin-top: 20px;
+                box-shadow: 0px 0px 9px 0px #0478d1;
+
+                .header-input{
+                    font-family: 'Press Start 2P', cursive;
+                    height: 20px;
+                    width: 200px;
+                    padding-left: 5px;
+                    margin-top: 15px;
+                    margin-left: 10px;
+                    border-radius:6px;
+                }
+                .buttons{
+                    margin-left: 30px;
+                    margin-top: 10px;
+                    .button{
+                        background-color: #bfbfbf;
+                        color: #000f00;
+                        border:#a6a6a6 ;
+                        height: 40px;
+                        width: 40px;
+                        font-weight: 900;
+                        border-radius: 9%;
+                        font-size: 15px;
+                        
+                    }
+                    .random-button{
+                        background-color: #bfbfbf;
+                        color: #000f00;
+                        border:#a6a6a6;
+                        height: 40px;
+                        width: 60px;
+                        font-size: 10px;
+                        font-weight: 800;
+                        border-radius: 9%;
+                        
+                    }
+                    .random-button:hover{
+                        cursor: pointer;
+                    }
+                    .button:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }       
+    }
+}

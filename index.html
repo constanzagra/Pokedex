@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="selected-poke">
+        <div class="poke-box">
+            <img src="./sass/PokedexClosed.png" class="pokebody">
+            <div class="poke-box-box" id="pokeBox">
+                <img alt="" class="pokeImg" id="pokeImg">
+            </div> 
+        </div>
+        <div class="poke-box-atributes">
+            <div class="poke-atributes" id="pokeAtributes">
+                <span class="pokeName" id="pokeName"></span>
+                <span class="poketype" id="pokeType"></span>
+                <span class="pokeAtribute" id="pokeAtributes"></span>
+            </div>
+            <div class="inputs-container">
+                <input type="number" placeholder="Pokedex number..." class="header-input" id="poke-number-input">
+                <div class="buttons">
+                    <button class="button" id="go-button"> GO! </button>
+                    <button class="random-button" id="random-button"> Random  Pokemon </button>
+                    <button class="button" id="X-button"> X </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
